@@ -1,22 +1,3 @@
-.navbar {
-  position: fixed;
-  z-index: 9;
-  width: 70%;
-  margin: 0 15%;
-}
-
-.navbar .nav {
-  margin: auto;
-}
-
-.navbar .nav li:hover {
-  background-color: #c42f40;
-}
-
-.navbar .nav a {
-  color: white;
-}
-
 .carousel img {
   -webkit-filter: brightness(20%);
           filter: brightness(20%);
@@ -64,29 +45,12 @@
   border: double 0.5em white;
 }
 
-section {
-  background-image: url(../chef/images/main_bg.jpg);
-}
-
-section div:first-child {
-  background-color: white;
-  width: 80%;
-  margin: auto;
-}
-
-#lt {
-  max-width: -webkit-min-content;
-  max-width: -moz-min-content;
-  max-width: min-content;
-}
-
-#rt {
-  max-width: -webkit-min-content;
-  max-width: -moz-min-content;
-  max-width: min-content;
-}
-
-.bc {
-  background-color: #c42f40;
+.deco {
+  background-image: url(../chef/images/bottom_decoration_img.png);
+  position: absolute;
+  width: 100%;
+  z-index: 12;
+  bottom: 0;
+  height: 1.3vh;
 }
 /*# sourceMappingURL=main.css.map */
